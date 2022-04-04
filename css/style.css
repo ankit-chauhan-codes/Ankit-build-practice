@@ -19,6 +19,11 @@ section{
     color: white;
     padding: 12px 36px;
     }
+
+.primary-btn:hover{
+    background: #000000;
+    color: white;
+}
 /* global */
 
 
@@ -33,4 +38,6 @@ section{
       color: #000000;
       
 }
+
+
 /* Nav */
