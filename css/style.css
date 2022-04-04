@@ -1,13 +1,5 @@
 
 /* global */
-img{
-    width: 100%;
-}
-
-section{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 .btn{
     text-transform: uppercase;
@@ -20,15 +12,40 @@ section{
     padding: 12px 36px;
     }
 
-.primary-btn:hover{
+.primary-btn:hover,
+.second-btn:hover,
+.third-btn:hover{
     background: #000000;
     color: white;
 }
+
+.second-btn{
+    background: #D82602;
+    color: white;
+    padding: 12px 26px;
+    }
+
+.third-btn{
+    background: transparent;
+    color: white;
+    padding: 12px 26px;
+    border: 1px solid #e3e3e3;
+    }   
+    
+ .third-btn:hover{
+     background: #000000;
+     color: white;
+     border: none;
+    }
 /* global */
 
 
 
 /* Nav */
+.navbar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+ }
+
 .navbar .navbar-brand{
     font-size: 60px;
 }
@@ -36,8 +53,54 @@ section{
 .navbar .navbar-nav .nav-link{
       text-transform: uppercase;
       color: #000000;
-      
+}
+/* Nav */
+
+
+/* Home */
+#home{
+    background: url(../images/home-header-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 240px;
+    padding-bottom: 200px ;
+    width: 100%;
+    }
+
+#home h1{
+     font-size: 80px;
+     text-transform: uppercase;
+     font-weight: 200;
+     }
+
+.home-title span{
+    font-weight: 700;
 }
 
+#home p{
+    color: #e3e3e3;
+    font-size: 24px;
+    font-weight: 400;
+}
+/* Home */
 
-/* Nav */
+
+/* Qualities */
+#qualities{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#qualities .icon-box{
+    display: flex;
+}
+
+#qualities h6{
+    color: #333333;
+    font-size: 18px;
+    text-transform: uppercase;
+    max-width: 180px;
+    font-weight: 600;
+    
+}
+
+/* Qualities */
