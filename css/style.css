@@ -13,8 +13,7 @@
     }
 
 .primary-btn:hover,
-.second-btn:hover,
-.third-btn:hover{
+.second-btn:hover{
     background: #000000;
     color: white;
 }
@@ -29,13 +28,26 @@
     background: transparent;
     color: white;
     padding: 12px 26px;
-    border: 1px solid #e3e3e3;
+    border: 2px solid white;
     }   
     
  .third-btn:hover{
      background: #000000;
      color: white;
      border: none;
+    }
+
+.fourth-btn{
+    background: transparent;
+    color: #000000 ;
+    padding: 12px 26px;
+    border: 1px solid #e3e3e3;
+    }  
+    
+.fourth-btn:hover{
+    background: #000000;
+    color: white;
+    border: none;
     }
 /* global */
 
@@ -69,7 +81,7 @@
 #home h1{
      font-size: 80px;
      text-transform: uppercase;
-     font-weight: 200;
+     font-weight: 400;
      }
 
 .home-title span{
@@ -88,10 +100,13 @@
 #qualities{
     padding-top: 60px;
     padding-bottom: 40px;
+    background-color: #e3e3e3;
+    border-bottom: 1px solid grey;
 }
 
 #qualities .icon-box{
     display: flex;
+    border-right: 1px solid grey;
 }
 
 #qualities h6{
@@ -100,7 +115,86 @@
     text-transform: uppercase;
     max-width: 180px;
     font-weight: 600;
-    
+}
+/* Qualities */
+
+
+
+/* Stakes */
+#stakes{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #e3e3e3 ;
+    }
+
+#stakes .stake-text h2{
+    font-size: 45px;
 }
 
-/* Qualities */
+#stakes .stake-text p{
+    font-weight: 500;
+}
+/* Stakes */
+
+
+
+/* Services */
+#services{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    }
+
+#services .services-title h2{
+    font-size: 45px;
+}   
+/* Services */
+
+
+
+/* Counter */
+#counter{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #e3e3e3;
+}
+
+#counter .counter-heading h2{
+    font-size: 45px;
+}
+
+#counter .counter-text h3{
+    font-size: 60px;
+}
+
+#counter .counter-text p{
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 1px;
+}
+
+#counter .counter-img img{
+    width: 15%;
+}
+/* Counter */
+
+
+
+/* Location */
+#location{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+#location .location-heading h2{
+    font-size: 42px;
+}
+
+#location .location-text p{
+    font-size: 12px;
+    font-weight: 500;
+    }
+
+#location .location-image img{
+    width: 80%;
+}
+/* Location */
