@@ -217,3 +217,37 @@
     font-weight: 500;
     }
 /* Clients */
+
+
+
+/* Team */
+#team{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+#team .team-heading h2{
+    font-size: 40px;
+}
+
+#team .team-text p{
+    font-size: 12px;
+    font-weight: 500;
+    }
+
+#team .card-box{
+    height: 100px;
+    width: 400px;
+    background-color: #e3e3e3;
+    transform: translateY(-50px);
+    margin-left: 20px;
+}
+
+#team .card-box h6{
+    font-size: 24px;
+}
+
+#team .card-box p{
+    font-weight: 500;
+}
+/* Team */
