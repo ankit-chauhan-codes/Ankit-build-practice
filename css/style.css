@@ -41,7 +41,7 @@
     background: transparent;
     color: #000000 ;
     padding: 12px 26px;
-    border: 1px solid #e3e3e3;
+    border: 1px solid grey;
     }  
     
 .fourth-btn:hover{
@@ -198,3 +198,22 @@
     width: 80%;
 }
 /* Location */
+
+
+
+/* Clients */
+#client{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #e3e3e3;
+}
+
+#client .client-heading h2{
+    font-size: 40px;
+}
+
+#client .client-text p{
+    font-size: 12px;
+    font-weight: 500;
+    }
+/* Clients */
