@@ -151,7 +151,19 @@
 
 #services .services-title h2{
     font-size: 40px;
-}   
+}  
+
+#services .service-images img{
+    width: 100%;
+}
+
+#services .service-images .image-text h6{
+    font-size: 25px;
+    margin-top: -50px;
+    display: flex;
+    align-items: flex-end;
+    transform: translateX(30px);
+}
 /* Services */
 
 
