@@ -268,6 +268,7 @@
 #about-us .about-us-image img{
     width: 100%;
 }
+
 /* About-Us */
 
 
@@ -284,9 +285,9 @@
     font-weight: 500;
 }
 
-.footer-top logo{
-    color: #e3e3e3;
-
+.footer-top .vline{
+    border-right: 1px solid #e3e3e3;
+    
 }
 
 .footer-top .para p{
@@ -302,16 +303,22 @@
 }
 
 .footer-top .capabilities a,
-.footer-top .projects a{
+.footer-top .projects a,
+.footer-top .nohead a{
     display: block;
 }
 
 .footer-top .capabilities a,
-.footer-top .projects a{
+.footer-top .projects a,
+.footer-top .nohead a{
     text-decoration: none;
     color: #e3e3e3;
     font-size: 17px;
     font-weight: 500;
+}
+
+.footer-top .nohead a{
+    transform: translateX(-100px);
 }
 
 .footer-bottom{
