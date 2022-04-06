@@ -237,10 +237,10 @@
 
 #team .card-box{
     height: 100px;
-    width: 400px;
+    width: 350px;
     background-color: #e3e3e3;
     transform: translateY(-50px);
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #team .card-box h6{
@@ -250,4 +250,77 @@
 #team .card-box p{
     font-weight: 500;
 }
+
+#team .team{
+    margin-left: 150px;
+}
 /* Team */
+
+
+
+/* About-Us */
+#about-us{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #e3e3e3;
+}
+
+#about-us .about-us-image img{
+    width: 100%;
+}
+/* About-Us */
+
+
+/* Footer */
+.footer-top{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color: #000000;
+}
+
+.footer-top p{
+    color: #e3e3e3;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.footer-top logo{
+    color: #e3e3e3;
+
+}
+
+.footer-top .para p{
+    color: #e3e3e3;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-top .social-icons a{
+    color: white;
+   font-size: 20px;
+   padding: 0 5px;
+}
+
+.footer-top .capabilities a,
+.footer-top .projects a{
+    display: block;
+}
+
+.footer-top .capabilities a,
+.footer-top .projects a{
+    text-decoration: none;
+    color: #e3e3e3;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.footer-bottom{
+    padding-top: 24px;
+    padding-bottom: 20px;
+    background-color: #333333;
+}
+
+.footer-bottom p{
+    color: #e3e3e3;
+}
+/* Footer */
