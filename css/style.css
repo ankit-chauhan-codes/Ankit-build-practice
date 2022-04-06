@@ -192,6 +192,10 @@
 #counter .counter-img img{
     width: 15%;
 }
+
+#counter .counter{
+       border-right: 1px solid grey;
+}
 /* Counter */
 
 
@@ -203,16 +207,16 @@
 }
 
 #location .location-heading h2{
-    font-size: 42px;
+    font-size: 35px;
 }
 
 #location .location-text p{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     }
 
 #location .location-image img{
-    width: 80%;
+    width: 100%;
 }
 /* Location */
 
