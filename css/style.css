@@ -190,7 +190,7 @@
 }
 
 #counter .counter-img img{
-    width: 15%;
+    width: 20%;
 }
 
 #counter .counter{
@@ -237,6 +237,8 @@
     font-size: 12px;
     font-weight: 500;
     }
+
+
 /* Clients */
 
 
@@ -256,13 +258,22 @@
     font-weight: 500;
     }
 
+#team .team-img img{
+    width: 100%;
+}
+
 #team .card-box{
     height: 100px;
-    width: 350px;
+    width: 340px;
     background-color: #e3e3e3;
     transform: translateY(-50px);
     margin-left: 40px;
 }
+
+#team .card-box:hover{
+       background-color: #D82602;
+    }
+
 
 #team .card-box h6{
     font-size: 24px;
@@ -272,9 +283,7 @@
     font-weight: 500;
 }
 
-#team .team{
-    margin-left: 150px;
-}
+
 /* Team */
 
 
@@ -287,7 +296,7 @@
 }
 
 #about-us .about-us-image img{
-    width: 100%;
+    width: 70%;
 }
 
 /* About-Us */
