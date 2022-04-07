@@ -1,9 +1,21 @@
 
 /* global */
 
+body {
+    font-family: acumin-pro, sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4,h5, h6 {
+    font-family: 'Exo 2', sans-serif !important;
+}
+
 .btn{
+    font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .primary-btn{
@@ -63,8 +75,11 @@
 }
 
 .navbar .navbar-nav .nav-link{
-      text-transform: uppercase;
-      color: #000000;
+    color: #000000;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
 }
 /* Nav */
 
@@ -80,7 +95,7 @@
     }
 
 #home h1{
-     font-size: 80px;
+     font-size: 84px;
      text-transform: uppercase;
      font-weight: 400;
      }
@@ -91,8 +106,10 @@
 
 #home p{
     color: #e3e3e3;
-    font-size: 24px;
+    font-size: 30px;
+    font-family: acumin-pro, sans-serif !important;
     font-weight: 400;
+    font-style: normal;
 }
 /* Home */
 
@@ -112,10 +129,11 @@
 
 #qualities h6{
     color: #333333;
-    font-size: 18px;
+    max-width: 200px;
+    font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
-    max-width: 180px;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 21px;
 }
 /* Qualities */
 
@@ -124,19 +142,23 @@
 /* Stakes */
 #stakes{
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     background-color: #e3e3e3;
     background-image: url(../images/stakes-img.png);
     }
 
 #stakes .stakes-body .stakes-heading h2{
-    font-size: 35px;
+    font-size: 44px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 #stakes .stakes-text p{
-    font-size: 14px;
-    font-weight: 600;
-       
+    font-size: 20px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 /* Stakes */
 
@@ -149,7 +171,10 @@
     }
 
 #services .services-title h2{
-    font-size: 40px;
+    font-size: 44px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }  
 
 #services .service-images img{
@@ -157,7 +182,11 @@
 }
 
 #services .service-images .image-text h6{
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    
     margin-top: -50px;
     display: flex;
     align-items: flex-end;
@@ -175,7 +204,10 @@
 }
 
 #counter .counter-heading h2{
-    font-size: 45px;
+    font-size: 44px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 #counter .counter-text h3{
@@ -183,9 +215,11 @@
 }
 
 #counter .counter-text p{
-    font-size: 12px;
-    color: #333333;
-    letter-spacing: 1px;
+    font-size: 16px;
+    color: #333333;   
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 #counter .counter-img img{
@@ -206,12 +240,17 @@
 }
 
 #location .location-heading h2{
-    font-size: 35px;
+    font-size: 44px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 #location p{
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 20px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     }
 
 #location .location-image img{
@@ -229,12 +268,17 @@
 }
 
 #client .client-heading h2{
-    font-size: 40px;
+    font-size: 44px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 #client p{
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 20px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     }
 
 #client .client .client-img img{
@@ -254,12 +298,17 @@
 }
 
 #team .team-heading h2{
-    font-size: 40px;
+    font-size: 44px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 #team p{
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 20px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     }
 
 #team .team-img img{
@@ -280,11 +329,17 @@
 
 
 #team .card-box h6{
-    font-size: 24px;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 #team .card-box p{
-    font-weight: 500;
+    font-size: 18px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -300,16 +355,21 @@
 }
 
 #about-us .about-us-image img{
-    width: 67%;
+    width: 100%;
 }
 
 #about-us .about-us-body .about-us-heading h2{
-    font-size: 40px;
+    font-size: 44px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 #about-us .about-us-body .about-us-text p{
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 20px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* About-Us */
@@ -322,10 +382,19 @@
     background-color: #000000;
 }
 
+.footer-top h5{
+    font-size: 21px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 .footer-top p{
     color: #e3e3e3;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 20px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .footer-top .vline{
@@ -336,7 +405,9 @@
 .footer-top .para p{
     color: #e3e3e3;
     font-size: 16px;
-    font-weight: 300;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .footer-top .social-icons a{
@@ -356,12 +427,14 @@
 .footer-top .nohead a{
     text-decoration: none;
     color: #e3e3e3;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 18px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .footer-top .nohead a{
-    transform: translateX(-120px);
+    transform: translateX(-100px);
 }
 
 .footer-bottom{
@@ -372,5 +445,9 @@
 
 .footer-bottom p{
     color: #e3e3e3;
+    font-size: 16px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 /* Footer */
