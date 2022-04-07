@@ -34,7 +34,7 @@
  .third-btn:hover{
      background: #000000;
      color: white;
-     border: none;
+     border: 2px solid #000000;
     }
 
 .fourth-btn{
@@ -47,7 +47,7 @@
 .fourth-btn:hover{
     background: #000000;
     color: white;
-    border: none;
+    border: 1px solid #000000;
     }
 /* global */
 
@@ -76,6 +76,7 @@
     padding-top: 240px;
     padding-bottom: 200px ;
     width: 100%;
+    
     }
 
 #home h1{
@@ -122,22 +123,20 @@
 
 /* Stakes */
 #stakes{
-    padding-top: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     background-color: #e3e3e3;
+    background-image: url(../images/stakes-img.png);
     }
 
 #stakes .stakes-body .stakes-heading h2{
-    font-size: 38px;
+    font-size: 35px;
 }
 
 #stakes .stakes-text p{
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
        
-}
-
-#stakes .stakes-image img{
-    width: 210%;
 }
 /* Stakes */
 
@@ -210,13 +209,13 @@
     font-size: 35px;
 }
 
-#location .location-text p{
-    font-size: 12px;
+#location p{
+    font-size: 14px;
     font-weight: 600;
     }
 
 #location .location-image img{
-    width: 100%;
+    width: 90%;
 }
 /* Location */
 
@@ -233,10 +232,15 @@
     font-size: 40px;
 }
 
-#client .client-text p{
-    font-size: 12px;
-    font-weight: 500;
+#client p{
+    font-size: 14px;
+    font-weight: 600;
     }
+
+#client .client .client-img img{
+    background-color: white;
+    padding: 35px;
+}
 
 
 /* Clients */
@@ -253,9 +257,9 @@
     font-size: 40px;
 }
 
-#team .team-text p{
-    font-size: 12px;
-    font-weight: 500;
+#team p{
+    font-size: 14px;
+    font-weight: 600;
     }
 
 #team .team-img img{
@@ -296,7 +300,16 @@
 }
 
 #about-us .about-us-image img{
-    width: 70%;
+    width: 67%;
+}
+
+#about-us .about-us-body .about-us-heading h2{
+    font-size: 40px;
+}
+
+#about-us .about-us-body .about-us-text p{
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* About-Us */
@@ -348,7 +361,7 @@
 }
 
 .footer-top .nohead a{
-    transform: translateX(-100px);
+    transform: translateX(-120px);
 }
 
 .footer-bottom{
